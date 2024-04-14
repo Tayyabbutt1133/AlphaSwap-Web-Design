@@ -58,7 +58,7 @@ const Navbar = () => {
             <NavLink to="">Docs</NavLink>
           </li>
           <li>
-            <NavLink to="/faqs">FaQs</NavLink>
+            <NavLink to="/faqs">FaQ</NavLink>
           </li>
           <li>
             <NavLink to="/launchdapp">Launch Dapp</NavLink>
