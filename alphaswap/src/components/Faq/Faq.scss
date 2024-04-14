@@ -1,0 +1,377 @@
+.mainFaq {
+  background: linear-gradient(
+    90deg,
+    #3f1652 0%,
+    #210e43 25%,
+    #100b3b 50%,
+    #010731 100%
+  );
+  padding-top: 15%;
+}
+.faqhead {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faqhead h1 {
+  font-size: 40px;
+}
+.faqcontent
+{
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px)
+{
+  .faqhead h1 
+  {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:500px)
+{
+  .faqhead h1 
+  {
+    font-size: 20px;
+  }
+}
+.faqmainInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Faqleft {
+  padding-left: 8%;
+}
+.faqleftInner {
+  margin: 3%;
+}
+.faqimg {
+  position: relative;
+}
+
+.faqimg img {
+  display: block;
+}
+.faqcontent {
+  top: 5%;
+  position: absolute;
+  color: white;
+  width: 100%;
+}
+.faqcontent span {
+  color: #5a6eb2;
+  margin-left: 0.5%;
+}
+.faqcontent h1 {
+  font-size: 20px;
+  margin-left: 3%;
+}
+.faqcontent p {
+  font-size: 15px;
+  margin-left: 7%;
+}
+.faqRight img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.faqleftInner:nth-child(2) .faqcontent h1 {
+  margin-top: 1%;
+}
+
+.faqleftInner:nth-child(3) .faqcontent h1 {
+  margin-top: 1%;
+}
+
+.faqleftInner:nth-child(4) .faqcontent h1 {
+  margin-top: 1%;
+}
+
+.faqleftInner:nth-child(5) .faqcontent h1 {
+  margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive styling for left div
+@media screen and (max-width: 1240px) {
+
+  .faqimg img {
+    width: 100%;
+  }
+
+ .faqimg p
+ {
+  // border: 2px solid white;
+  font-size: 12px;
+ }
+
+  .faqimg h1 {
+    font-size: 15px;
+  }
+  .faqcontent {
+    margin-top: 1%;
+  }
+
+}
+
+@media screen and (max-width:1120px)
+{
+  .faqleftInner p 
+  {
+  //  border: 2px solid white;
+   font-size: 11px;
+  }
+}
+
+@media screen and (max-width:1060px)
+{
+  .faqleftInner p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:990px)
+{
+ 
+  .faqleftInner p{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:880px)
+{
+  .faqleftInner p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:850px)
+{
+  .faqleftInner p{
+    font-size: 7px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:760px)
+{
+  .faqleftInner p{
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width:670px)
+{
+  .faqleftInner p{
+    font-size: 5px;
+  }
+}
+
+
+@media screen and (max-width:575px)
+{
+  .faqleftInner p{
+    font-size: 4px;
+  }
+}
+
+@media screen and (max-width:470px)
+{
+  .faqleftInner p{
+    font-size: 3px;
+  }
+}
+
+// Responsive styling for left h1 and p
+
+@media screen and (max-width:1060px)
+{
+  .faqcontent h1 
+  {
+    // border: 2px solid white;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:990px)
+{
+  .faqcontent h1 
+  {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:920px)
+{
+  .faqcontent h1 
+  {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:850px)
+{
+  .faqcontent h1 
+  {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width:790px)
+{
+  .faqcontent h1 
+  {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:710px)
+{
+  .faqcontent h1 
+  {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:640px)
+{
+  .faqcontent h1 
+  {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width:570px)
+{
+  .faqcontent h1 
+  {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width:500px)
+{
+  .faqcontent h1 
+  {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width:430px)
+{
+  .faqRight
+  {
+    display: none;
+  }
+  .Faqleft
+  {
+    margin-right: 9%;
+  }
+  .faqcontent h1 
+  {
+    font-size: 10px;
+  }
+  .faqcontent p{
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width:380px)
+{
+  .faqcontent h1 
+  {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width:340px)
+{
+  .faqcontent h1 
+  {
+    font-size: 8px;
+  }
+  .faqcontent p{
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width:300px)
+{
+  .faqcontent h1 
+  {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width:270px)
+{
+  .faqcontent h1 
+  {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width:230px)
+{
+  .faqcontent h1 
+  {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width:190px)
+{
+  .faqcontent h1 
+  {
+    font-size: 4px;
+  }
+}
+
+@media screen and (max-width:290px)
+{
+  .faqcontent p{
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width:240px)
+{
+  .faqcontent p{
+   font-size: 4px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

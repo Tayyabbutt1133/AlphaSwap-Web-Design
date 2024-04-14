@@ -1,0 +1,80 @@
+.worksMain
+{
+    background: linear-gradient(
+        90deg,
+        #3f1652 0%,
+        #210e43 25%,
+        #100b3b 50%,
+        #010731 100%
+      );
+      padding-top: 10%;
+}
+.workshead h1
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.lifeInner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lifeInner img
+{
+    width: 60%;
+    margin-top: 4%;
+}
+
+@media screen and (max-width:1060px)
+{
+    .lifeInner img
+    {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width:800px)
+{
+    .workshead h1
+    {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .workshead h1 
+    {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

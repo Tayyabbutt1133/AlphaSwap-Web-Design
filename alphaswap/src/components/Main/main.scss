@@ -1,0 +1,812 @@
+.outsideMain {
+  background: linear-gradient(
+    90deg,
+    #3f1652 0%,
+    #210e43 25%,
+    #100b3b 50%,
+    #010731 100%
+  );
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7%;
+}
+@media screen and (max-width:820px)
+{
+  .main
+  {
+    padding-top: 15%;
+  }
+}
+.leftmain {
+  color: white;
+  margin-left: 14%;
+  overflow: visible;
+}
+@media screen and (max-width:470px)
+{
+  .leftmain
+  {
+    margin-top: 5%;
+  }
+}
+.rightmain {
+  margin-right: 12%;
+}
+.leftmainhead {
+  font-size: 20px;
+}
+
+.leftmainpara p
+{
+   width: 75%;
+   font-size: 20px;
+}
+
+.leftmainbtn {
+  width: 60%;
+  margin-top: 2%;
+}
+.leftmainbtn button {
+  width: 50%;
+  background-color: #1bd5ed;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  height: 43px;
+  cursor: pointer;
+}
+.leftmainbtn button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.statsImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statistics {
+  position: relative;
+}
+.statsImg img {
+  width: 53%;
+  margin-bottom: 10%;
+  position: relative;
+  z-index: 1;
+}
+.statsNum {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  margin-left: 25%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 1.5%;
+}
+
+
+// Responsive queries
+
+
+// Right main Para queriess
+@media screen and (max-width:1240px)
+{
+    .leftmainpara p{
+        width: 90%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1136px)
+{
+     .leftmainpara p{
+        width: 100%;
+     }
+}
+
+@media screen and (max-width:1070px)
+{
+    .leftmainpara p{
+      font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1012px)
+{
+    .leftmainpara p{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:953px)
+{ 
+    .leftmainpara p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:925px)
+{
+  .leftmainpara p{
+     font-size: 15px;
+  }
+}
+
+@media screen and (max-width:870px)
+{
+    .leftmainpara p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:830px)
+{
+    .leftmainpara p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:656px)
+{
+  .leftmainpara p{
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width:629px)
+{
+  .leftmainpara p
+  {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:602px)
+{
+  .leftmainpara p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:575px)
+{
+  .leftmainpara p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:520px)
+{
+   .leftmainpara p{
+    font-size: 8px;
+   }
+}
+
+// Mobile screen para 
+
+@media screen and (max-width:425px)
+{
+  .leftmainpara p{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:360px)
+{
+  .leftmainpara p{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:310px)
+{
+  .leftmainpara p{
+    font-size: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Right main heading queries
+@media screen and (max-width:1036px)
+{
+    .leftmainhead h1
+    {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:980px)
+{
+    .leftmainhead h1 
+    {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:912px)
+{
+    .leftmainhead h1
+    {
+      font-size: 25px;
+    }
+}
+@media screen and (max-width:840px)
+{
+    .leftmainhead h1 
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:770px)
+{
+    .leftmainhead h1 
+    {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:730px)
+{
+   .leftmainhead h1 
+   {
+    font-size: 20px;
+   }  
+}
+
+@media screen and (max-width:660px)
+{
+    .leftmainhead h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:548px)
+{
+  .leftmainhead h1{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:520px)
+{
+  .leftmainhead h1{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width:462px)
+{
+  .leftmainhead h1{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:430px)
+{
+  .leftmainhead h1 
+  {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:335px)
+{
+  .leftmainhead h1 
+  {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:275px)
+{
+  .leftmainhead h1 
+  {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:240px)
+{
+  .leftmainhead h1 
+  {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Flex main on Mobile screen : 425
+@media screen and (max-width:430px)
+{
+  .main
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+// Statistics Responsiveness 
+
+@media screen and (max-width:1130px)
+{
+  .statsNum
+  {
+    // border: 2px solid red;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:1024px)
+{
+  .statsNum 
+  {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:900px)
+{
+  .statsNum
+  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:790px)
+{
+  .statsNum
+  {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:630px)
+{
+  .statsNum
+  {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width:550px)
+{
+  .statsNum
+  {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width:490px)
+{
+  .statsNum
+  {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width:440px)
+{
+  .statsNum
+  {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width:430px)
+{
+  .statsImg img
+  {
+     width: 80%;
+  }
+  .statsNum
+  {
+      width: 70%;
+      font-size: 8px;
+      margin-left: 12%;
+  }
+}
+
+@media screen and (max-width:370px)
+{
+  .statsNum
+  {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width:270px)
+{
+  .statsNum
+  {
+    font-size: 5px;
+  }
+}
+
+
+@media screen and (max-width:230px)
+{
+  .statsNum
+  {
+    font-size: 4px;
+  }
+}
+
+
+@media screen and (max-width:200px)
+{
+  .statsNum
+  {
+    font-size: 3px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Right-Main Image Query
+@media screen and (max-width:1024px)
+{
+    .rightmain img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:850px)
+{
+    .rightmain img 
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+  .rightmain img 
+  {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:550px)
+{
+  .rightmain img 
+  {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width:490px)
+{
+  .rightmain img 
+  {
+      width: 75%;
+      margin-top: 10%;
+  }
+}
+
+@media screen and (max-width:430px)
+{
+  .rightmain img 
+  {
+    width: 60%;
+    margin-left: 23%;
+  }
+}
+
+
+
+// Button responsive media query 
+ @media screen and (max-width:1240px)
+{
+    .leftmainbtn button 
+    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1120px)
+{
+    .leftmainbtn button 
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width:900px)
+{
+    .leftmainbtn button 
+    {
+      width: 80%;
+    }
+}
+
+@media screen and (max-width:820px)
+{
+   .leftmain button 
+   {
+       width: 90%;
+   }
+}
+
+@media screen and (max-width:800px)
+{
+  .leftmain button 
+  {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width:750px)
+{
+  .leftmain button 
+  {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:680px)
+{
+  .leftmainbtn button a 
+  {
+   font-size: 100%;
+  }
+}
+
+@media screen and (max-width:590px)
+{
+  .leftmainbtn button
+  {
+    width: 80%;
+    height: 34px;
+  }
+  .leftmainbtn button a 
+  {
+   font-size: 70%;
+  }
+}
+
+@media screen and (max-width:450px)
+{
+  .leftmainbtn button a 
+  {
+   font-size: 60%;
+  }
+}
+
+
+@media screen and (max-width:490px)
+{
+  .leftmainbtn button 
+  {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:525px)
+{
+  .leftmainbtn button 
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:430px)
+{
+  .leftmainbtn
+  {
+    width: 100%;
+  }
+  .leftmainbtn button 
+  {
+    width: 60%;
+  }
+  .leftmainbtn button a 
+  {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:320px)
+{
+  .leftmainbtn button 
+  {
+    width: 50%;
+  }
+  .leftmainbtn button a 
+  {
+    font-size: 9px;
+  }
+}
+
+
+@media screen and (max-width:290px)
+{
+  .leftmainbtn button 
+  {
+    width: 50%;
+    height: 40%;
+  }
+  .leftmainbtn button a 
+  {
+    font-size: 8px;
+   
+  }
+}
+
+@media screen and (max-width:250px)
+{
+  .leftmainbtn button 
+  {
+    width: 50%;
+    height: 30%;
+  }
+  .leftmainbtn button a 
+  {
+    font-size: 7px;
+   
+  }
+}
+
+@media screen and (max-width:230px)
+{
+  .leftmainbtn button 
+  {
+    width: 60%;
+  }
+}
+
+
+
+
+// Main padding to make it not join from navbar
+@media screen and (max-width:900px)
+{
+  .main
+  {
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width:430px)
+{
+  .main
+  {
+    padding-top: 35%;
+  }
+  .leftmain
+  {
+    margin-right: 15%;
+  }
+ 
+}
+@media screen and (max-width:230px)
+{
+  .main
+  {
+    padding-top: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+.whyMain
+{
+    background: linear-gradient(
+    90deg,
+    #3f1652 0%,
+    #210e43 25%,
+    #100b3b 50%,
+    #010731 100%
+  );
+}
+.whyMainWork 
+{
+  margin-top: 5%;
+}
+
+.whyHead
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whyWorkone
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whyWorktwo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whyoneInner
+{
+  margin: 1%;
+}
+.whytwoInner
+{
+  margin: 1%;
+}
+@media screen and (max-width: 1100px) {
+  .whyoneInner
+  {
+    width: 20%;
+  }
+  .whyoneInner img
+  {
+   width: 80%;
+  }
+  .whytwoInner
+  {
+    width:20%;
+  }
+  .whytwoInner img
+  {
+   width: 80%;
+  }
+}
+@media screen and (max-width:600px)
+{
+  .whyHead h1
+  {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:412px)
+{
+  .whyHead h1
+  {
+    font-size: 15px;
+  }
+}

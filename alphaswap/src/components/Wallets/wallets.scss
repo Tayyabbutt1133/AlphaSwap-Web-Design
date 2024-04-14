@@ -1,0 +1,291 @@
+.walletsMain {
+  background: linear-gradient(
+    90deg,
+    #3f1652 0%,
+    #210e43 25%,
+    #100b3b 50%,
+    #010731 100%
+  );
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.walletMainInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftWallet {
+  color: white;
+  padding-left: 12%;
+}
+.leftWallet h1 {
+  width: 100%;
+  font-size: 50px;
+}
+.leftWallet h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.leftWallet p {
+  width: 70%;
+  margin-top: 2%;
+}
+.rightWallet {
+  padding-right: 15%;
+}
+
+
+
+
+// Responsive Media queries
+
+// for wallet heading
+
+@media screen and (max-width: 930px) {
+  .leftWallet h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .leftWallet h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:560px)
+{
+  .leftWallet h1 
+  {
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+// for h2 responsiveness 
+
+@media screen and (max-width:930px)
+{
+  .leftWallet h2{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width:735px)
+{
+  .leftWallet h2 
+  {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// For paragraph
+
+@media screen and (max-width: 1240px) {
+  .leftWallet p {
+    width: 85%;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1095px) {
+  .leftWallet p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .leftWallet p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .leftWallet p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .leftWallet p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .leftWallet p {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .leftWallet p {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .leftWallet p {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width:550px)
+{
+  .leftWallet p{
+    font-size: 6px;
+  }
+}
+
+
+@media screen and (max-width:500px)
+{
+  .leftWallet p{
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width:450px)
+{
+  .leftWallet p{
+    font-size: 4px;
+  }
+}
+
+
+
+// Right wallet image responsiveness
+
+@media screen and (max-width: 1024px) {
+  .rightWallet img {
+    width: 250px;
+  }
+}
+
+
+@media screen and (max-width:930px)
+{
+  .rightWallet img 
+  {
+     width: 230px;
+  }
+}
+
+
+@media screen and (max-width:820px)
+{
+  .rightWallet img 
+  {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width:700px)
+{
+  .rightWallet img 
+  {
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width:620px)
+{
+  .rightWallet img 
+  {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width:560px)
+{
+  .rightWallet img 
+  {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:480px)
+{
+  .rightWallet img 
+  {
+    width: 135px;
+  }
+}
+
+
+
+// rows to column divs for screens 
+
+@media screen and (max-width:430px)
+{
+  .walletMainInner
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .rightWallet
+  {
+    order: -1;
+    padding-left: 12%;
+  }
+  .rightWallet img 
+  {
+    width: 50%;
+  }
+  .leftWallet
+  {
+    padding-right: 15%;
+  }
+  .leftWallet p {
+    width: 100%;
+    font-size: 12px;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
