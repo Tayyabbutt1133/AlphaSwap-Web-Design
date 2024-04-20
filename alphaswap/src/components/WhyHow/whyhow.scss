@@ -1,16 +1,11 @@
 .whyMain
 {
-    background: linear-gradient(
-    90deg,
-    #3f1652 0%,
-    #210e43 25%,
-    #100b3b 50%,
-    #010731 100%
-  );
+  background: #000622;
+  padding-top: 10%;
 }
 .whyMainWork 
 {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .whyHead
@@ -35,15 +30,24 @@
 .whyoneInner
 {
   margin: 1%;
+  
 }
+
 .whytwoInner
 {
   margin: 1%;
 }
+
+
+
+
+
+
 @media screen and (max-width: 1100px) {
   .whyoneInner
   {
     width: 20%;
+    margin: -1%;
   }
   .whyoneInner img
   {
@@ -52,6 +56,8 @@
   .whytwoInner
   {
     width:20%;
+    margin: -1%;
+    margin-top: 15px;
   }
   .whytwoInner img
   {
@@ -70,5 +76,143 @@
   .whyHead h1
   {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width:620px)
+{
+  .whyMainWork {
+    margin-top: 15%;
+}
+}
+
+@media screen and (max-width:480px)
+{
+  .whyMainWork {
+    margin-top: 30%;
+}
+}
+
+@media screen and (max-width:430px)
+{
+  .Navbar-logo img {
+    width: 115px;
+}
+  .whyWorkone
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Initially two columns */
+  }
+  .whyoneInner {
+    width: 190px;
+}
+  .whyoneInner img 
+  {
+    margin-left: 22px;
+  }
+  .whyWorktwo
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Initially two columns */
+  }
+  .whytwoInner {
+    width: 190px;
+}
+  .whytwoInner img 
+  {
+    margin-left: 22px;
+  }
+}
+
+@media screen and (max-width:390px)
+{
+  .whyoneInner {
+    width: 170px;
+}
+.whytwoInner {
+  width: 170px;
+  padding-top: 23px;
+}
+}
+
+
+
+@media screen and (max-width:350px)
+{
+  .Navbar-logo {
+    padding-left: 0px;
+}
+  .whyWorkone {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+  .whyWorktwo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.whyoneInner {
+  width: 190px;
+  padding-left: 63px;
+}
+.whytwoInner {
+  width: 190px;
+  padding-left: 63px;
+}
+}
+
+
+@media screen and (max-width:280px)
+{
+  .whyoneInner
+  {
+    padding-left: 38px;
+  }
+  .whytwoInner
+  {
+    padding-left: 38px;
+  }
+  .Navbar-logo img {
+    width: 90px;
+}
+}
+
+
+@media screen and (max-width:235px)
+{
+  .whyoneInner
+  {
+    padding-left: 14px;
+  }
+  .whytwoInner
+  {
+    padding-left: 14px;
+  }
+}
+
+
+@media screen and (max-width:210px)
+{
+  .whyoneInner
+  {
+    padding-left: 9px;
+    width: 170px;
+  }
+  .whytwoInner
+  {
+    padding-left: 9px;
+    width: 170px;
+  }
+}
+
+@media screen and (max-width:190px)
+{
+  .whyoneInner
+  {
+    width: 150px;
+  }
+  .whytwoInner
+  {
+    width: 150px;
   }
 }

@@ -1,56 +1,129 @@
 import React from "react";
 import "./Compare.scss";
-// import shadeSmallg from "../../Images/Rectsmall.png";
-// import shadexlarge from "../../Images/Rectxlarge.png";
-// import shadelarge from "../../Images/Rectlarge.png";
-// import greenRec from "../../Images/Rectangleyg.png";
-// import blueRec from "../../Images/Rectangleyb.png";
-// import svg1 from "../../Images/GroupS.svg";
-// import GroupBlue from "../../Images/GroupB.svg";
-// import GroupBG from "../../Images/GroupBg.svg";
-// import Groupred from "../../Images/GroupRedish.svg";
-// import featured1 from "../../Images/Feature1.png";
-// import featured2 from "../../Images/Feature2.png";
-// import featured3 from "../../Images/Feature3.png";
-// import featured4 from "../../Images/Feature4.png";
-// import featured5 from "../../Images/Feature5.png";
-// import featured6 from "../../Images/Feature6.png";
-// import featured7 from "../../Images/Feature7.png";
-// import feat3img from "../../Images/Feature3img.svg";
-// import feat4img from "../../Images/Feature4img.svg";
-// import life from "../../Images/Lifecycle.svg";
+import alphaswap from "../../Images/swap.png";
+import uniSwap from "../../Images/horse.png";
+import kibaSwap from "../../Images/fire.png";
+import maestro from "../../Images/Mrgb.svg";
 
 const Compare = () => {
   return (
     <>
-     
       <div className="compareMain">
-        <div className="compareMainInner">
+      <div className="compareMain-head">
+          <h2>Comparison of AlphaSwap with others</h2>
+        </div>
+        <div className="compareMain-inner">
+          <div className="compare-row">
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
+            </div>
 
-          <div className="compareMainInner-rows">
-          <div className="compareMainInner-divs">
-          <h4>Ease of Use</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Difficult</h4>
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
             </div>
-            <div className="compareMainInner-divs">
-          <h4>Ease of Use</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Difficult</h4>
+
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
             </div>
-            <div className="compareMainInner-divs">
-          <h4>Ease of Use</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Easy</h4>
-          <h4>Difficult</h4>
+
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
+            </div>
+
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
+            </div>
+
+            <div className="compare-row-inner">
+              <div className="compare-inner-row-text">
+                <h3>Ease of use</h3>
+                <h3>Fast</h3>
+                <h3>Slow</h3>
+                <h3>Mid</h3>
+                <h3>Fast</h3>
+              </div>
+            </div>
           </div>
+          <div className="compare-coln">
+            <div className="compare-column-inner">
+              <div className="compare-column-head">
+                <div className="compare-column-img1">
+                  <img src={alphaswap} alt="" />
+                </div>
+                <div className="compare-column-innerhead">
+                  <h2>Alpha Swap</h2>
+                </div>
+              </div>
+
+              <div className="compare-inner-column-text"></div>
+            </div>
+            <div className="compare-column-inner">
+              <div className="compare-column-head">
+                <div className="compare-column-img2">
+                  <img src={uniSwap} alt="" />
+                </div>
+                <div className="compare-column-innerhead">
+                  <h2>Alpha Swap</h2>
+                </div>
+              </div>
+
+              <div className="compare-inner-column-text"></div>
+            </div>
+            <div className="compare-column-inner">
+              <div className="compare-column-head">
+                <div className="compare-column-img3">
+                  <img src={kibaSwap} alt="" />
+                </div>
+                <div className="compare-column-innerhead">
+                  <h2>Alpha Swap</h2>
+                </div>
+              </div>
+
+              <div className="compare-inner-column-text"></div>
+            </div>
+            <div className="compare-column-inner">
+              <div className="compare-column-head">
+                <div className="compare-column-img4">
+                  <img src={maestro} alt="" />
+                </div>
+                <div className="compare-column-innerhead">
+                  <h2>Alpha Swap</h2>
+                </div>
+              </div>
+
+              <div className="compare-inner-column-text"></div>
+            </div>
           </div>
-          
         </div>
       </div>
     </>

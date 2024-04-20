@@ -1,80 +1,75 @@
-.worksMain
-{
-    background: linear-gradient(
-        90deg,
-        #3f1652 0%,
-        #210e43 25%,
-        #100b3b 50%,
-        #010731 100%
-      );
-      padding-top: 10%;
+.worksMain {
+  background: #000622;
+  height: 100%;
 }
-.workshead h1
-{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5%;
+.workshead h1 {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
     font-size: 40px;
-}
-.lifeInner
-{
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.lifeInner img
-{
-    width: 60%;
-    margin-top: 4%;
+.lifeInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lifeInner {
+  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 940px) {
+  .lifeInner {
+    margin-left: 100px;
+    width: 80%;
+  }
+  .workshead h1 
+  {
+    font-size: 35px;
+  }
 }
 
-@media screen and (max-width:1060px)
+@media screen and (max-width:640px)
 {
-    .lifeInner img
-    {
-        width: 60%;
-    }
-}
-
-
-@media screen and (max-width:800px)
-{
-    .workshead h1
-    {
+    .lifeInner {
+        margin-left: 65px;
+      }
+      .workshead h1 {
         font-size: 30px;
     }
 }
 
-@media screen and (max-width:500px)
+@media screen and (max-width:430px)
 {
-    .workshead h1 
-    {
+    .lifeInner {
+        margin-left: 45px;
+      }
+      .workshead h1 {
         font-size: 20px;
     }
 }
 
+@media screen and (max-width:300px)
+{
+    .lifeInner {
+        margin-left: 34px;
+    }
+    .workshead h1 {
+        font-size: 15px;
+    }
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:230px)
+{
+    .lifeInner {
+        margin-left: 22px;
+    }
+    .workshead h1 {
+        font-size: 13px;
+    } 
+}

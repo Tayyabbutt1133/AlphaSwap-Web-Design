@@ -9,6 +9,8 @@ import featured6 from '../../Images/Feature6.png';
 import featured7 from '../../Images/Feature7.png';
 import feat3img from '../../Images/Feature3img.svg';
 import feat4img from '../../Images/Feature4img.svg';
+import { Fade } from "react-awesome-reveal";
+
 
 const Whyhow = () => {
   return (
@@ -17,6 +19,8 @@ const Whyhow = () => {
               <div className="whyHead">
                   <h1>Why Choose AlphaSwap?</h1>
               </div>
+              <Fade direction='down'>
+              
               <div className="whyMainWork">
                   <div className="whyWorkone">
                       <div className="whyoneInner">
@@ -42,8 +46,10 @@ const Whyhow = () => {
                       <div className="whytwoInner">
                           <img src={featured7} alt="" />
                       </div>
+                      </div>
+                      
                   </div>
-              </div>
+                  </Fade>
           </div>
       </>
   )

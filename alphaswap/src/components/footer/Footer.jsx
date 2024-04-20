@@ -14,19 +14,24 @@ import {
   FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { Fade } from "react-awesome-reveal";
+
+
+
 
 const Footer = () => {
   return (
     <>
+      
       <hr className="spacefooter" />
 
       {/* footer  */}
       <div className="footer"> 
-        
+       
         {/* sb_footer */}
         <div className="sb_footer">
-
           {/* sb_footer-links */}
+          <Fade direction="left">
           <div className="sb_footer-links">
 
             {/* sb_footer-links-div */}
@@ -128,7 +133,8 @@ const Footer = () => {
                 <button>
                   Subscribe
                 </button>
-              </div>
+                </div>
+               
               {/* sb_footer-below-links */}
               <div className="sb_footer-below-links">
                 <FaMedium className="icons" size={20} />
@@ -141,13 +147,16 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
+          </Fade>
           <hr/>
           {/* sb_footer-below */}
+
           <div className="sb_footer-below ">
+            <Fade direction="right">
             <p>@2022 Alpha Swap, All Righs Reserved.</p>
             <p>ENS: Alpha Swap.eth</p>
-            <p>BUIDL@ETHNewYork 2019</p>
+              <p>BUIDL@ETHNewYork 2019</p>
+              </Fade>
           </div>
         </div>
       </div>

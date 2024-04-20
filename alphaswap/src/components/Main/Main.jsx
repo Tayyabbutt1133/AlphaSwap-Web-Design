@@ -2,17 +2,23 @@ import React from "react";
 import "./main.scss";
 import mainAnima from "../../Images/MainAnimation.svg";
 import numspace from "../../Images/numspace.png";
+import { Fade } from "react-awesome-reveal";
+import SwapMain from '../../Images/SwapMain.gif';
 
 const Main = () => {
   return (
     <>
       <div className="outsideMain">
+        
         <div className="main">
+
+          <Fade direction="left">
           <div className="leftmain">
             <div className="leftmainhead">
-              <h1>DeFi Swap - Reimagined</h1>
+                <h1>DeFi Swap - Reimagined</h1>
             </div>
             <div className="leftmainpara">
+          
               <p>
                 Swap smarter, not harder - with the most advanced and
                 user-friendly DeFi Swap platform
@@ -20,14 +26,19 @@ const Main = () => {
             </div>
             <div className="leftmainbtn">
               <button>
-                <a href="">Start Swapping Now</a>
+                <a href="">Start Swapping Now!</a>
               </button>
+              </div>
             </div>
-          </div>
+          </Fade>
+          <Fade direction="right">
           <div className="rightmain">
-            <img  src={mainAnima} alt="" />
+            <img src={SwapMain} alt="" />
           </div>
+          </Fade>
         </div>
+       
+        <Fade direction="down">
         <div className="statistics">
           <div className="statsNum">
             <div className="statsNumChild">
@@ -50,7 +61,8 @@ const Main = () => {
                   <div className="statsImg">
             <img src={numspace} alt="" />
           </div>
-        </div>
+          </div>
+          </Fade>
       </div>
     </>
   );

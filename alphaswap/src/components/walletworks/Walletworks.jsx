@@ -3,14 +3,18 @@ import "./walletworks.scss";
 import Wallogo1 from "../../Images/Wallogo1.png";
 import Wallogo2 from "../../Images/Wallogo2.png";
 import Wallogo3 from "../../Images/Wallogo3.png";
+import { Fade } from "react-awesome-reveal";
 
 const Walletworks = () => {
   return (
     <>
       <div className="WalletWorksMain">
         <div className="walletworkshead">
-          <h1>Here's how it works</h1>
+          <Fade direction="down">
+            <h1>Here's how it works</h1>
+            </Fade>
         </div>
+        <Fade direction="up">
         <div className="walletworksInner">
           <div className="walletsContent">
             <div className="circleimg1">
@@ -55,7 +59,8 @@ const Walletworks = () => {
               </p>
             </div>
           </div>
-        </div>
+          </div>
+          </Fade>
       </div>
     </>
   );
