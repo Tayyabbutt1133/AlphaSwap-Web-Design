@@ -22,7 +22,7 @@ function App() {
     <>    
       <Navbar />
       <Main />
-       {/* <Compare /> */}
+       <Compare />
       <Whyhow />
       <Works />
       <Faq />
