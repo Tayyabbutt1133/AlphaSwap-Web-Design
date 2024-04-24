@@ -12,9 +12,6 @@ import Footer from './components/footer/Footer'
 
 
 
-
-
-
 function App() {
 
 
@@ -29,6 +26,7 @@ function App() {
       <Wallets />
       <Walletworks />
       <Footer />
+
     </>
   )
 }

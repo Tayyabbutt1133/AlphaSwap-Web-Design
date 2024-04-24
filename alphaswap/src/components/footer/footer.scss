@@ -58,7 +58,6 @@
   display: flex;
   color: white;
   justify-content: space-between;
-  // margin-top: 0.2rem;
   padding-top: 30px;
   flex-direction: row;
   color: #828284;
@@ -110,15 +109,22 @@
   color: white;
   cursor: pointer;
   margin-top: 3%;
-}
-
-.footer-subs-btn button:hover {
   background: linear-gradient(
     90deg,
     #3f1652 0%,
     #210e43 25%,
     #100b3b 50%,
     #010731 100%
+  );
+}
+
+.footer-subs-btn button:hover {
+  background: linear-gradient(
+    90deg,
+    #351d3f 0%,
+    #3e177f 25%,
+    #1e184f 50%,
+    #020f73 100%
   );
 }
 
