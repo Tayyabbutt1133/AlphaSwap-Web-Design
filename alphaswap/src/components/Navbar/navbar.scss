@@ -16,11 +16,7 @@
   width: 100%;
   z-index: 99999;
 }
-.Navbar-logo
-{
-  // border: 2px solid red;
-  padding-left: 120px;
-}
+
 .Navbar-logo img {
   width: 150px;
   padding: 15px;
@@ -30,12 +26,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 5px 10px;
+  margin: 0 11%; /* Adjust the left and right margins */
+  width: 75%; /* Adjust the width of the navbar */
 }
-.Nav-links
-{
-  padding-right: 90px;
-}
+// .Active_Header
+// {
+//   background-color: rgba(0, 0, 0, .8);
+//     box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+//     transition: .4s ease-in-out;
+// }
 
 .nav-inner-links {
   display: flex;
@@ -43,11 +43,11 @@
   justify-content: center;
   list-style: none;
 }
-
 .nav-inner-links li {
-  font-size: 0.9rem;
-  margin-right: 50px;
+  font-size: 0.8rem;
+  margin-right: 60px;
 }
+
 
 .nav-inner-links li a {
   color: white;
@@ -59,15 +59,18 @@
   width: 150px;
   height: 40px;
   border-radius: 22px;
-  margin-right: 25px;
   cursor: pointer;
+  border: white;
 }
 
 .btn a {
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: black;
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
   font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
 }
 
 .btn:hover
@@ -178,6 +181,19 @@
   font-family: "Roboto Slab", serif;
 }
 
+
+
+
+@media screen and (max-width:1240px)
+{
+ 
+   .Navbar
+   {
+    width: 85%;
+   }
+
+}
+
 @media screen and (max-width: 790px) {
   .Nav-links {
     display: none;
@@ -197,59 +213,9 @@
     display: block;
     color: white;
   }
-}
-
-
-// Handling Navbar Padding 
-@media screen and (max-width:1170px)
-{
-  .Navbar-logo {
-    padding-left: 90px;
-}
-
-.Nav-links {
-  padding-right: 55px;
-}
-
-}
-
-
-
-@media screen and (max-width:1040px)
-{
-  .Navbar-logo {
-    padding-left: 70px;
-}
-
-.Nav-links {
-  padding-right: 11px;
-}
-
-}
-
-
-
-@media screen and (max-width:940px)
-{
-  .Navbar-logo {
-    padding-left: 50px;
-}
-
-.Nav-links {
-  padding-right: 7px;
-}
-.nav-inner-links li {
-  font-size: 0.8rem;
-  margin-right: 40px;
-}
-}
-
-
-// handling logo for small screens 
-
-@media screen and (max-width:790px)
-{
-  .Navbar-logo {
-    padding-left: 12px;
-}
+  .Navbar
+  {
+    margin: 0 0%;
+    width: 95%;
+  }
 }

@@ -23,7 +23,7 @@ function App() {
       <Whyhow />
       <Works />
       <Faq />
-      <Wallets />
+       <Wallets />
       <Walletworks />
       <Footer />
 

@@ -1,9 +1,8 @@
 import React from "react";
 import "./main.scss";
-import mainAnima from "../../Images/MainAnimation.svg";
 import numspace from "../../Images/numspace.png";
 import { Fade } from "react-awesome-reveal";
-import SwapMain from '../../Images/SwapMain.gif';
+import SwapMain from '../../Images/AlphaSwap.gif';
 
 const Main = () => {
   return (
@@ -26,7 +25,7 @@ const Main = () => {
             </div>
             <div className="leftmainbtn">
               <button>
-                <a href="">Start Swapping Now!</a>
+                <a href="">Start Swapping Now !</a>
               </button>
               </div>
             </div>

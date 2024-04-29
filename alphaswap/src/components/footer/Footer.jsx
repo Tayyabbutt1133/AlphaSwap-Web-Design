@@ -28,7 +28,7 @@ const Footer = () => {
       {/* footer  */}
       <div className="footer"> 
        
-        {/* sb_footer */}
+       
         <div className="sb_footer">
           {/* sb_footer-links */}
           <Fade direction="left">
@@ -43,15 +43,15 @@ const Footer = () => {
 
               <div className="footer-inner-link-div">
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
                 </a>
                 </div>
             </div>
@@ -64,15 +64,15 @@ const Footer = () => {
       
               <div className="footer-inner-link-div">
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
                 </a>
                 </div>
             </div>
@@ -84,15 +84,15 @@ const Footer = () => {
               </div>
               <div className="footer-inner-link-div">
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
                 </a>
                 </div>
             </div>
@@ -104,19 +104,19 @@ const Footer = () => {
               </div>
               <div className="footer-inner-link-div">
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
               </a>
 
               <a href="#">
-                <p>Liquidity Protocol 1</p>
+                <p className="aligned">Liquidity Protocol 1</p>
                 </a>
                 </div>
             </div>
@@ -127,7 +127,7 @@ const Footer = () => {
                 <h1>Subscribe to Alpha Swap Newsletter</h1>
               </div>
               <div className="footerPara">
-                <h4>the latest news and update</h4>
+                <h4>Get the latest news and update</h4>
               </div>
               <div className="footer-subs-btn">
                 <button>
@@ -137,18 +137,18 @@ const Footer = () => {
                
               {/* sb_footer-below-links */}
               <div className="sb_footer-below-links">
-                <FaMedium className="icons" size={20} />
-                <FaDiscord className="icons" size={20}  />
-                <FaLinkedinIn className="icons" size={20}  />
-                <FaReddit className="icons" size={20}  />
-                <FaTwitter className="icons" size={20}  />
-                <FaYoutube className="icons" size={20}  />
-                <FaGithub className="icons" size={20}  />
+                <FaMedium className="icons" size={18} />
+                <FaDiscord className="icons" size={18}  />
+                <FaLinkedinIn className="icons" size={18}  />
+                <FaReddit className="icons" size={18}  />
+                <FaTwitter className="icons" size={18}  />
+                <FaYoutube className="icons" size={18}  />
+                <FaGithub className="icons" size={18}  />
               </div>
             </div>
           </div>
           </Fade>
-          <hr/>
+          <hr className="spacefooter" />
           {/* sb_footer-below */}
 
           <div className="sb_footer-below ">

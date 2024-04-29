@@ -27,10 +27,27 @@
   justify-content: center;
   align-items: center;
 }
+
+
+
+
 .whyoneInner
 {
   margin: 1%;
+  position: relative; /* Ensure that the container is relatively positioned */
   
+}
+
+.overlay-image {
+  position: relative; /* Relative positioning to contain absolute positioned images */
+}
+
+.overlay-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .whytwoInner

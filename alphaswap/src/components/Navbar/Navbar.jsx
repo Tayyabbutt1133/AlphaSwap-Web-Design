@@ -13,33 +13,38 @@ const Navbar = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
 
+
   return (
 
     <div className="Main-Navbar">
      
-
-      <nav className="Navbar">
-      <Fade direction="down">
+      <nav className="Navbar Active_Header">
+    
         <div className="Navbar-logo">
           <img src={mainLogo} alt="" />
           </div>
         <div className="Nav-links">
           <ul className="nav-inner-links">
             <li>
-              <NavLink to="">Docs</NavLink>
+              <NavLink className="navli" to="">Docs</NavLink>
             </li>
             <li>
-              <NavLink to="/faqs">FaQs</NavLink>
+              <NavLink className="navli" to="/faqs">FaQs</NavLink>
             </li>
             <li>
-              <NavLink to="/launchdapp">Launch Dapp</NavLink>
+              <NavLink className="navli" to="/launchdapp">Launch Dapp</NavLink>
             </li>
             <button className="btn">
-              <NavLink to="/contactus">Contact us</NavLink>
+              <NavLink className="navli" to="/contactus">Contact us</NavLink>
             </button>
           </ul>
           </div>
-          </Fade>
+    
+        
+
+
+
+
         {isMobileNavOpen ? (
           <FaTimes
             className="toggle-icons close-icon"
@@ -54,7 +59,14 @@ const Navbar = () => {
           />
         )}
       </nav>
+      
 
+
+
+
+
+
+      
       {/* Mobile-SideNavbar  */}
       <Fade>
       <div className={`Mobile-sideBar ${isMobileNavOpen ? "open" : ""}`}>

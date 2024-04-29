@@ -9,7 +9,7 @@ const Works = () => {
   return (
       <>
       <div className="worksMain">
- 
+      
           <div className="workshead">
           <Fade direction='down'>
             <h1>How it Works </h1>
